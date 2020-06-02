@@ -1,0 +1,66 @@
+body {
+    font-family: Poppins, sans-serif;
+  }
+
+.myWork {
+    padding: 15px;
+}
+
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .workGrid1, .workGrid2, .workGrid3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .workGrid1 {
+    margin-top:20px;
+    background-image: url("../images/ChefMeet-800x373.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+  }
+  .workGrid2 {
+    background-image: url("../images/Texas.gov-800x373.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .workGrid3 {
+    background-image: url("../images/Tanbi-800x373.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text {
+    background: rgba(0, 0, 0, 0.255);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text h1 {
+    font-family: Poppins, sans-serif;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #workGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "workGrid1"
+        "workGrid2"
+        "workGrid3"
+      ;
+    }
+  }
