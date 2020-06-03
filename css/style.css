@@ -1,3 +1,7 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
 .logo {
   display: flex;
   justify-content: flex-end;
@@ -30,10 +34,6 @@
   background-color: #40AFB9;
   color: white;
 }
-
-body {
-    font-family: Poppins, sans-serif;
-  }
 
 .myWork {
     padding: 15px;
